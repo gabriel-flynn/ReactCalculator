@@ -1,0 +1,23 @@
+div.container {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border: 15px gold solid;
+    width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+    div.container {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    div.container {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 992px) {
+    div.container {
+        width: 30%;
+    }
+}

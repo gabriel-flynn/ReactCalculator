@@ -1,0 +1,13 @@
+ button {
+    min-height: 75px;
+    font-family: 'Coming Soon';font-size: 22px;
+    outline: 0 !important;
+    box-shadow: none !important;
+} 
+.btn:focus {
+    outline: none;
+  }
+  *:focus:not(:focus-visible) {
+    outline: 0 !important;
+    box-shadow: none !important;
+  }
