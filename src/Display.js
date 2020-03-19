@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Display.css';
 const Display = (props) => (
     <div id="display" className="container-fluid p-0" >
         <div className="col-12 bg-info rounded">
